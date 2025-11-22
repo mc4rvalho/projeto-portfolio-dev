@@ -1,0 +1,79 @@
+header {
+  background-image: url(../assets/Background_Intro.png);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--base-color-gray-600);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: 100%;
+  padding: 120px 24px;
+
+  color: var(--base-color-gray100);
+
+  .icon-caret {
+    color: var(--base-color-gray-300);
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.profile-wrapper {
+  position: relative;
+  display: inline-flex;
+  padding: 4px;
+  border: 2px solid var(--principal-color-red);
+  border-radius: 50%;
+  margin-bottom: 56px;
+
+  z-index: 0;
+}
+
+.profile-wrapper>img {
+  width: 82.27px;
+  height: 82.27px;
+  border-radius: 50%;
+  display: block;
+}
+
+.icon-badge {
+  position: absolute;
+  bottom: -4px;
+  right: -10px;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: var(--base-color-gray-500);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.icon-badge img {
+  width: 20px;
+  height: 20px;
+}
+
+header p:first-of-type {
+  color: var(--base-color-gray-200);
+  max-width: 640px;
+  line-height: 1.6;
+  margin-bottom: 80px;
+}
+
+header h1 {
+  color: var(--base-color-gray-100);
+  margin-bottom: 24px;
+}
+
+header p:last-of-type {
+  color: var(--base-color-gray-200);
+  max-width: 640px;
+  line-height: 1.6;
+  margin-bottom: 80px;
+}

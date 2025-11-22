@@ -30,3 +30,53 @@
   --text-sm: 400 14px/140% var(--font-family-tertiary);
   ;
 }
+
+#tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 64px;
+  flex-wrap: nowrap;
+  margin-bottom: 94px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--base-color-gray-400);
+  padding: 8px 24px;
+  border-radius: 999px;
+}
+
+.card img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.card figcaption {
+  font: var(--text-md);
+  color: var(--base-color-gray-200);
+}
+
+.card.html img {
+  background-color: var(--principal-color-red);
+}
+
+.card.css img {
+  background-color: var(--principal-color-blue);
+}
+
+.card.javascript img {
+  background-color: var(--principal-color-yellow);
+}
+
+.card.react img {
+  background-color: var(--principal-color-blue);
+}
+
+.card.node img {
+  background-color: var(--principal-color-green);
+}

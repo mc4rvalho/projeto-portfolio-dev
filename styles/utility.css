@@ -29,3 +29,13 @@
 #text-sm {
   font: var(--text-sm);
 }
+
+#subtitle-red {
+  font: var(--subtitle);
+  color: var(--principal-color-red);
+}
+
+#subtitle-purple {
+  font: var(--subtitle);
+  color: var(--principal-color-purple);
+}

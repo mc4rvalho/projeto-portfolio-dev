@@ -60,23 +60,3 @@
   font: var(--text-md);
   color: var(--base-color-gray-200);
 }
-
-.card.html img {
-  background-color: var(--principal-color-red);
-}
-
-.card.css img {
-  background-color: var(--principal-color-blue);
-}
-
-.card.javascript img {
-  background-color: var(--principal-color-yellow);
-}
-
-.card.react img {
-  background-color: var(--principal-color-blue);
-}
-
-.card.node img {
-  background-color: var(--principal-color-green);
-}

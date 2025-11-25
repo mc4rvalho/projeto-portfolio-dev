@@ -8,14 +8,14 @@
 
 <br />
 
-![Preview do Projeto](./assets/cover-image.png)
+![Preview do Projeto](./assets/preview-projeto.png)
 
 
 ## 💻 Sobre o Projeto
 
 Este é um projeto de **Portfólio Pessoal** desenvolvido para apresentar meus projetos, habilidades técnicas e informações de contato. O layout foi construído com foco em design moderno, responsividade e boas práticas de codificação.
 
-O projeto foi baseado no desafio "Portfolio Dev" da comunidade Rocketseat, com personalizações próprias.
+O projeto foi baseado no desafio "Portfólio Dev" da comunidade Rocketseat, com personalizações próprias.
 
 ## 🔗 Acesse o Projeto Online
 

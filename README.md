@@ -9,7 +9,7 @@
 <br />
 
 ![Preview do Projeto](./assets/cover-image.png)
-> *Dica: Tire um print da tela inteira do seu site e salve como `cover-image.png` na pasta assets para a imagem acima aparecer.*
+
 
 ## 💻 Sobre o Projeto
 
@@ -51,10 +51,10 @@ Como este é um projeto estático, não há necessidade de instalação de depen
 
 1. **Clone o repositório:**
    Abra seu terminal e digite:
-   ```
-   bash
-   git clone [https://github.com/mc4rvalho/projeto-portfolio-dev.git](https://github.com/mc4rvalho/projeto-portfolio-dev.git)
-   ```
+```
+bash
+git clone [https://github.com/mc4rvalho/projeto-portfolio-dev.git](https://github.com/mc4rvalho/projeto-portfolio-dev.git)
+```
    
 2. **Entre na pasta do projeto:**
   ```
@@ -93,7 +93,8 @@ E-mail: mcarvalho093@gmail.com
     * Isso fará com que quem entre no seu GitHub veja a "cara" do site logo de início.
 4.  **Atualize o Link do LinkedIn:** No final do código que te mandei, onde diz `SEU-LINK-AQUI`, coloque o final da URL do seu perfil.
 5.  **Suba para o GitHub:**
-    ```bash
+    ```
+    bash
     git add .
     git commit -m "Docs: Adiciona README profissional"
     git push
